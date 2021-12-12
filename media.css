@@ -1,0 +1,260 @@
+@media(max-width:1240px) {
+    .img_box h1 {
+        width: 40%;
+    }
+
+    .img_box p {
+        width: 30%;
+    }
+
+    section.locate {
+        flex-wrap: wrap;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.locate .box .text p {
+        width: 70%;
+    }
+
+    section.locate .box {
+        margin: 20px 0;
+        display: flex;
+    }
+
+    section.locate .box .text {
+        margin-left: 20%;
+    }
+
+    section.locate .box img {
+        width: 20%;
+        height: 20%;
+        margin-top: 10%;
+    }
+
+    section.riding h1 {
+        width: 100%;
+    }
+}
+
+@media(max-width:1080px) {
+    .img_box h1 {
+        width: 40%;
+    }
+
+    .img_box p {
+        width: 30%;
+    }
+
+    section.riding img {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width:965px) {
+    .img_box h1 {
+        width: 50%;
+    }
+}
+
+@media(max-width:930px) {
+    header button {
+        position: absolute;
+        left: 90%;
+    }
+
+    .img_box p {
+        width: 30%;
+    }
+
+    section.locate .box .text p {
+        width: 100%;
+    }
+
+    section.riding p {
+        width: 70%;
+    }
+}
+
+@media(max-width:860px) {
+    .img_box p {
+        width: 40%;
+    }
+
+    .img_box h1 {
+        width: 400px;
+    }
+
+    section.riding img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media(max-width: 780px) {
+    section.riding img {
+        width: 40%;
+        height: 40%;
+    }
+
+    section.riding h1 {
+        width: 100%;
+    }
+}
+
+@media(max-width:680px) {
+    header ul {
+        display: none;
+    }
+section.locate .text p{
+    width: 100%;
+}
+    header button {
+        position: absolute;
+        left: 70%;
+        display: none;
+    }
+
+    header h1 {
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        left: 50%;
+    }
+
+    i.fa-bars {
+        display: block;
+        font-size: 30px;
+        color: #FCB72B;
+    }
+
+    section.riding {
+        display: flex;
+        position: relative;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.riding .text {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+     section.riding .text p, h1 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+section.riding h1{
+ margin-top: 50px;
+}
+    section.riding img {
+        position: absolute;
+        width: 60%;
+        height: 50%;
+        top: 0;
+    }
+
+    .img_box p {
+        width: 50%;
+    }
+
+    i.fa-times {
+        font-size: 30px;
+    }
+
+    /* main .img_box h1{
+        text-align: center;
+        position: absolute;
+        left: 20%;
+    }
+   
+    main .img_box p{
+        text-align: center;
+        position: absolute;
+        left: 22%;
+    } */
+}
+
+@media(max-width:550px) {
+    section.locate .box {
+        display: block;
+    }
+
+    section.locate .box .text {
+        display: block;
+    }
+
+    section.locate .box img {
+        width: 30%;
+        height: 30%;
+        margin-left: 50%;
+    }
+
+    section.locate .box h1 {
+        width: 100%;
+    }
+
+    section.locate .box .text p {
+        width: 120%;
+    }
+    section.riding img{
+        width: 55%;
+        height: 40%;
+    }
+    section.riding .text h1{
+        width:100%;
+    }
+}
+@media(max-width:495px){
+    section.riding h1 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    section.riding{
+        width: 100%;
+    }
+   main .img_box h1{
+       left: 5%;
+   }
+ main  .bars{
+       width: 60%;
+   }
+}
+@media(max-width:445px)
+{
+    section.riding .text h1{
+        font-size: 38px;
+    }
+    section.locate .box h1{
+        width: 100%;
+    }
+    section.locate{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0;
+    }
+    section.locate h1{
+        font-size:19px;
+    }
+    main .img_box h1{
+        font-size: 39px;
+        left: 2%;
+    }
+    main .img_box p{
+        width: 70%;
+    }
+    section.riding img{
+        width: 80%;
+    }
+}
